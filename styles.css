@@ -876,7 +876,11 @@ a[href="mailto:d.restano@restanobackflowtesting.com"] {
 }
 
 
-/* Final CTA email fit refinement — keep email on one line without widening the panel. */
+/* Final CTA email sizing fix — ONLY the final contact panel. */
+.final-cta-inner > * {
+  min-width: 0;
+}
+
 .cta-panel {
   min-width: 0;
   max-width: 100%;
@@ -887,37 +891,32 @@ a[href="mailto:d.restano@restanobackflowtesting.com"] {
   width: 100%;
   max-width: 100%;
   min-width: 0;
-  margin: 4px 0 10px;
-  color: #d8f2f8;
+  margin: 7px 0 10px;
+  color: #68d3e8;
   font-family: "Manrope", system-ui, sans-serif;
-  font-size: .76rem;
+  font-size: .69rem;
   font-weight: 700;
-  line-height: 1.4;
-  letter-spacing: -.012em;
+  line-height: 1.35;
+  letter-spacing: -.018em;
   white-space: nowrap;
   overflow-wrap: normal;
   word-break: normal;
 }
 
 .cta-panel .button {
+  box-sizing: border-box;
   width: 100%;
   max-width: 100%;
   min-width: 0;
 }
 
-@media (max-width: 960px) {
-  .cta-panel {
-    width: min(100%, 420px);
-  }
-}
-
 @media (max-width: 680px) {
   .cta-panel {
-    padding: 26px 22px;
+    padding-inline: 22px;
   }
 
   .cta-panel > a.cta-email:not(.button) {
-    font-size: .70rem;
-    letter-spacing: -.018em;
+    font-size: .62rem;
+    letter-spacing: -.022em;
   }
 }
