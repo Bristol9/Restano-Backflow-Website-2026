@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-labelledby="title desc">
+  <title id="title">Restano Backflow Testing mark</title>
+  <desc id="desc">A water droplet surrounding a check valve symbol</desc>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#20c8bd"/>
+      <stop offset="1" stop-color="#078f88"/>
+    </linearGradient>
+  </defs>
+  <path d="M50 5C38 25 19 42 19 63c0 18 14 32 31 32s31-14 31-32C81 42 62 25 50 5Z" fill="#082f33"/>
+  <path d="M50 17C40 33 28 47 28 63c0 13 10 23 22 23s22-10 22-23c0-16-12-30-22-46Z" fill="url(#g)"/>
+  <path d="M34 60h32M39 51v18M61 51v18" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="50" cy="60" r="7" fill="#f6a934" stroke="#fff" stroke-width="3"/>
+</svg>
